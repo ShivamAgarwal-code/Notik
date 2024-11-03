@@ -9,7 +9,7 @@ export const useEncryptKey = () => {
             }
 
             try {
-                // Import the public key
+                // Import the public key of the wallet owner
                 const importedKey = await importCryptoKey('public', pubKeyString);
 
                 // Encrypt the key string
