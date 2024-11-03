@@ -24,6 +24,7 @@ module notic3::subscription {
     public entry fun register_creator(
         registry: &mut CreatorRegistry,
         name: String,
+        logo: String,
         picture: String,
         bio: String,
         ctx: &mut TxContext
